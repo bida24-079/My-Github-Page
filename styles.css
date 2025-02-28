@@ -2,9 +2,9 @@ body {
 
 font-family:Arial, sans-serif;
 
-color:white
+color:white;
 
-background-color:grey
+background-color:grey;
 
 margin: 0;
 
@@ -16,7 +16,7 @@ line-height: 1.6;
 
 header {
 
-background-color:grey
+background-color:grey;
 
 color: white;
 
