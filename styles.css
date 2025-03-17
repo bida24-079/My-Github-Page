@@ -58,6 +58,33 @@ color: white;
     border-radius: 8px; /* Rounded corners for a cleaner look */
 }
 
+.car-collection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.car-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.car-item img {
+    width: 200px;  /* Make all images the same width */
+    height: 150px; /* Adjust height for uniformity */
+    object-fit: cover; /* Crop images to fit without distortion */
+    border-radius: 10px; /* Optional: rounded corners */
+}
+
+.car-item p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
 h2  {
 
    margin-left: auto;
