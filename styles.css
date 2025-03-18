@@ -81,3 +81,29 @@ nav a:hover {
 text-decoration: underline;
 
 }
+.car-collection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.car-collection div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.car-collection img {
+    width: 200px; /* Fixed width for uniform size */
+    height: 130px; /* Adjusted height */
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.car-collection img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
