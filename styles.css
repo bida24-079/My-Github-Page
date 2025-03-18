@@ -32,59 +32,18 @@ text-align: center;
 color: white;
   
 }
-
-.car-collection {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px; /* Space between items */
-    justify-content: center;
-    align-items: center;
-    text-align: center; /* Centers the text */
-    max-width: 90%;
-    margin: 0 auto; /* Center the entire section */
-}
-
-.car-item {
-    background: #f9f9f9;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.car-item img {
-    width: 100%;  /* Makes all images the same width */
-    height: 150px; /* Set a fixed height */
-    object-fit: cover; /* Ensures images maintain aspect ratio and fit neatly */
-    border-radius: 8px; /* Rounded corners for a cleaner look */
-}
-
-.car-collection {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
-    gap: 20px;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-}
-
-.car-item {
+.container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; /* Centers items horizontally */
+    text-align: center;  /* Centers text */
 }
-
-.car-item img {
-    width: 200px;  /* Make all images the same width */
-    height: 150px; /* Adjust height for uniformity */
-    object-fit: cover; /* Crop images to fit without distortion */
-    border-radius: 10px; /* Optional: rounded corners */
+img {
+    display: block;
+    margin: 10px auto; /* Centers image */
+    width: 100px; /* Adjust to your preferred size */
+    height: auto;
 }
-
-.car-item p {
-    margin-top: 10px;
-    font-weight: bold;
-}
-
 h2  {
 
    margin-left: auto;
