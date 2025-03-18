@@ -48,6 +48,22 @@ color: white;
     height: auto;
     border-radius: 10px; /* Optional: smooth edges */
 }
+.car-collection {
+    display: flex;
+    flex-wrap: wrap; /* Ensures responsiveness */
+    justify-content: center; /* Centers items */
+    gap: 20px; /* Adds space between items */
+}
+
+.car-item {
+    text-align: center;
+    width: 200px; /* Adjust as needed */
+}
+.car-item img {
+    width: 100%; /* Makes images responsive */
+    height: auto;
+    border-radius: 10px; /* Optional: smooth edges */
+}
 h2  {
 
    margin-left: auto;
