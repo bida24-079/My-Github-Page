@@ -5,67 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Garage | OMC</title>
     <link rel="stylesheet" href="main.css"> 
-    <a href="#new-cars">View New Cars</a> | <a href="#preowned-cars">View Pre-Owned Cars</a>
 </head>
 <body>
+
     <header>
         <h1>Oh My Rides!</h1>
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About</a> 
             <a href="contact.html">Contact</a>
+            <a href="#new-cars">View New Cars</a> 
+            <a href="#preowned-cars">View Pre-Owned Cars</a>
         </nav>
     </header>
 
     <main>
         <h2>Available Cars</h2>
         <p>Check out our latest collection of pre-owned and brand-new rides!</p>
-        
-        <div class="car-listing">
-            <div class="car">
-                <h2 id="new-cars">New Cars</h2>
-                   <img src="toyota.jpg" alt="Car 1">
-                <h3>2023 Toyota Cross Price: P85,000</h3>
-                 <img src="d-max-x-rider-black-22_1800x1800.jpg" alt="Car 2">
-                <h3> Isuzu D-Max X rider @P180,000</h3>
-                 <img src="honda fit hybrid.jpg" alt="Car 3">
-                <h3>2024 Honda fit Hybrid @P245,000</h3>
-                 <img src="VW Sirocco.jpg" alt="Car 4">
-                <h3>2012 VW Scirocco R @P170,000</h3>
-                 <img src="2019-Lexus-ES-250-31-2224643_1.jpg" alt="Car 5">
-                <h3>2019 Lexus ES 250 @P145,000</h3>
-                 <img src="estella.jpg" alt="Car 6">
-                <h3>Toyota Corolla Estella @P169,000</h3>
-                 <img src="Corolla Quest.jpeg" alt="Car 7">
-                <h3>Toyota Corolla Quest @P200,000</h3>
-            </div>
 
-<h2 id="preowned-cars">Pre-Owned Cars</h2>
-<div class="car">
-                <img src="2004 Toyota RunX.jpg" alt="Car 1">
-                <h3>2004 Toyota RunX @P39,000</h3>
-     <img src="652d2a11106207.59781063.jpg" alt="Car 2">
-    <h3>1999 Toyota Corolla @19,000</h3>
-     <img src="2012 Toyota Corolla LE.jpg" alt="Car 3">
-    <h3>2012 Toyota Corolla LE @P48,000</h3>
-     <img src="2007 Toyota Vitz II.jpg" alt="Car 4">
-    <h3>2007 Toyota Vitz II @P22,000</h3>
-     <img src="Used 2013 Ford Focus SE 4.jpg" alt="Car 5">
-    <h3>2013 Ford Focus SE 4 @P40,000</h3>
-     <img src="Volvo.jpg" alt="Car 6">
-    <h3>2024 Volvo V60 CrossCountry @P60,000</h3>
-      <img src="2012-Audi-A5-2.0T-private-2048815_1.jpg" alt="Car 7">
-    <h3>2012 Audi A5 @P70,000</h3>
-            </div>
-        
-</main>
+        <!-- New Cars Section -->
+        <section id="new-cars">
+            <h2>New Cars</h2>
+            <ul class="car-listing">
+                <li class="car-item">
+                    <img src="toyota.jpg" alt="2023 Toyota Cross">
+                    <h3>2023 Toyota Cross - P85,000</h3>
+                </li>
+                <li class="car-item">
+                    <img src="d-max-x-rider-black-22_1800x1800.jpg" alt="Isuzu D-Max X Rider">
+                    <h3>Isuzu D-Max X Rider - P180,000</h3>
+                </li>
+                <li class="car-item">
+                    <img src="honda fit hybrid.jpg" alt="2024 Honda Fit Hybrid">
+                    <h3>2024 Honda Fit Hybrid - P245,000</h3>
+                </li>
+                <li class="car-item">
+                    <img src="VW Sirocco.jpg" alt="2012 VW Scirocco R">
+                    <h3>2012 VW Scirocco R - P170,000</h3>
+                </li>
+                <li class="car-item">
+                    <img src="2019-Lexus-ES-250-31-2224643_1.jpg" alt="2019 Lexus ES 250">
+                    <h3>2019 Lexus ES 250 - P145,000</h3>
+                </li>
+                <li class="car-item">
+                    <img src="estella.jpg" alt="Toyota Corolla Estella">
+                    <h3>Toyota Corolla Estella - P169,000</h3>
+                </li>
+                <li class="car-item">
+                    <img src="Corolla Quest.jpeg" alt="Toyota Corolla Quest">
+                    <h3>Toyota Corolla Quest - P200,000</h3>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Pre-Owned Cars Section -->
+        <section id="preowned-cars">
+            <h2>Pre-Owned Cars</h2>
+            <ul class="car-listing">
+                <li class="car-item">
+                    <img src="2004 Toyota RunX.jpg" alt="2004 Toyota RunX">
+                    <h3>2004 Toyota RunX - P39,000</h3>
+                </li>
+                <li class="car-item">
+                    <img src="652d2a11106207.59781063.jpg" alt="1999 Toyota Corolla">
+                    <h3>1999 Toyota Corolla - P19,000</h3>
+                </li>
+                <li class="car-item">
+                    <img src="2012 Toyota Corolla LE.jpg" alt="2012 Toyota Corolla LE">
+                    <h3>2012 Toyota Corolla LE - P48,000</h3>
+                </li>
+                <li class="car-item">
+                    <img src="2007 Toyota Vitz II.jpg" alt="2007 Toyota Vitz II">
+                    <h3>2007 Toyota Vitz II - P22,000</h3>
+                </li>
+                <li class="car-item">
+                    <img src="Used 2013 Ford Focus SE 4.jpg" alt="2013 Ford Focus SE 4">
+                    <h3>2013 Ford Focus SE 4 - P40,000</h3>
+                </li>
+                <li class="car-item">
+                    <img src="Volvo.jpg" alt="2024 Volvo V60 CrossCountry">
+                    <h3>2024 Volvo V60 CrossCountry - P60,000</h3>
+                </li>
+                <li class="car-item">
+                    <img src="2012-Audi-A5-2.0T-private-2048815_1.jpg" alt="2012 Audi A5">
+                    <h3>2012 Audi A5 - P70,000</h3>
+                </li>
+            </ul>
+        </section>
+
+    </main>
 
     <footer>
         <p>&copy; 2025 OH MY CAR</p>
     </footer>
+
 </body>
 </html>
-
-
-
-
