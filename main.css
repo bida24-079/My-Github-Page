@@ -108,15 +108,25 @@ text-decoration: underline;
     transform: scale(1.05); /* Slight zoom on hover */
 }
 
-.<div class="car-listing" {
+<body class="ohmyrides-page">
+.ohmyrides.car-listing {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Auto adjusts */
-    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.ohmyrides.car-item {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
-<div class= img {
+.ohmyrides.car-item img {
     width: 100%;
-    height: 200px;
+    height: 180px;
     object-fit: cover;
+    border-radius: 5px;
 }
