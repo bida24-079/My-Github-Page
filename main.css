@@ -35,14 +35,14 @@ color: white;
 
 .car-collection {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
     justify-content: center;
     text-align: center;
 }
 
 .car-collection img {
-    width: 100%;
+    width: 120%;
     height: 300px; /* Adjust if images look stretched */
     object-fit: cover; /* Ensures images fit properly */
     border-radius: 8px; /* Optional for rounded edges */
