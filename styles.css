@@ -44,6 +44,10 @@ img {
     width: 100px; /* Adjust to your preferred size */
     height: auto;
 }
+.model {
+    text-align: center;
+    margin-bottom: 20px; /* Space between models */
+}
 h2  {
 
    margin-left: auto;
