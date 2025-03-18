@@ -42,8 +42,8 @@ color: white;
 }
 
 .car-collection img {
-    width: 120%;
-    height: 300px; /* Adjust if images look stretched */
+    width: 150%;
+    height: 350px; /* Adjust if images look stretched */
     object-fit: cover; /* Ensures images fit properly */
     border-radius: 8px; /* Optional for rounded edges */
 }
