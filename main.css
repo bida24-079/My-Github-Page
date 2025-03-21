@@ -130,7 +130,8 @@ text-decoration: underline;
     border-radius: 5px;
 }
 
-    <style>
+ .feedback.html {
+<style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
