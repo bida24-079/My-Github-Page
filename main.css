@@ -33,6 +33,23 @@ color: black;
   
 }
 
+.text-box {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9; /* Light background */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.button {
+    background-color: #007bff; /* Blue */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.button:hover {
+    background-color: #0056b3;
+}
+
 .car-collection {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -130,9 +147,7 @@ text-decoration: underline;
     border-radius: 5px;
 }
 
- .feedback.html {
-<style>
-        body {
+ .feedback.html .body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             text-align: center;
