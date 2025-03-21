@@ -13,11 +13,14 @@
         <h2>Feedback Form</h2>
 
         <form action="thanku.html">
-            <label>First Name:</label>
-            <input type="text" name="firstname" placeholder="Enter first name">
+             <fieldset>
+                <legend>Personal Information:</legend>
+                <label>First Name:</label>
+                <input type="text" name="firstname" value="Mickey">
 
-            <label>Last Name:</label>
-            <input type="text" name="lastname" placeholder="Enter last name">
+                <label><br>Last Name:</label>
+                <input type="text" name="lastname" value="Mouse">
+            </fieldset>
 
             <div class="radio-group">
                 <label>Gender:</label>
@@ -26,14 +29,7 @@
                 <input type="radio" name="gender" value="other"> Other  
             </div>
 
-            <fieldset>
-                <legend>Personal Information:</legend>
-                <label>First Name:</label>
-                <input type="text" name="firstname" value="Mickey">
-
-                <label>Last Name:</label>
-                <input type="text" name="lastname" value="Mouse">
-            </fieldset>
+           
 
             <button type="submit">Submit</button>
         </form>
