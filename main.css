@@ -33,7 +33,7 @@ color: black;
   
 }
 
-.text-box {
+.card-body {
     padding: 20px;
     border-radius: 10px;
     background-color: #f9f9f9; /* Light background */
@@ -147,7 +147,7 @@ text-decoration: underline;
     border-radius: 5px;
 }
 
- .feedback.html .body {
+ .feedback-page .body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             text-align: center;
