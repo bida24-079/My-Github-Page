@@ -33,6 +33,16 @@ color: black;
   
 }
 
+main {
+
+padding: 20px;
+
+max-width: 800px;
+
+margin: 0 auto;
+
+}
+
 .card-body {
     padding: 20px;
     border-radius: 10px;
@@ -188,4 +198,22 @@ text-decoration: underline;
             color: #007bff;
             font-weight: bold;
         }
+
+footer {
+
+background-color: #808080;
+
+color: black;
+
+text-align: center;
+
+padding: 10px;
+
+position: fixed;
+
+bottom: 0;
+
+width: 100%;
+
+}
     </style>
