@@ -4,7 +4,7 @@ font-family:Arial, sans-serif;
 
 color:black;
 
-background-color:#808080;
+background-color:#007bff;;
 
 margin: 0;
 
@@ -47,12 +47,12 @@ margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: flex-end; /* Aligns to the right */
-    margin-right: 20px; /* Adjust spacing from the right */
+    margin-right: 0px; /* Adjust spacing from the right */
 }
 
 .card-body {
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 50px;
     background-color: #f9f9f9; /* Light background */
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
@@ -208,7 +208,7 @@ text-decoration: underline;
 
 footer {
 
-background-color: #808080;
+background-color:#007bff;;
 
 color: black;
 
