@@ -119,20 +119,6 @@ margin: 0 auto;
     text-align: center;
 }
 
-.car-collection img {
-    width: 100%;
-    height: 180px; /* Adjust if images look stretched */
-    object-fit: cover; /* Ensures images fit properly */
-    border-radius: 8px; /* Optional for rounded edges */
-    transition: transform 0.3s ease-in-out;
-}
-
-.car-collection div {
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 h2  {
 
    margin-left: auto;
