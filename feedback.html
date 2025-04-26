@@ -17,9 +17,7 @@
 <h2>YOUR DREAM CAR AWAITS</h2>                         
    <nav>
      Your opinion fuels our journey, Let us be your ride-or-die!   
-
 </header>
-    
     <div class="container">
         <a href="index.html">Home</a>  |
          <a href="contact.html">Contact</a> |
@@ -35,8 +33,14 @@
                 <label>Last Name:</label>
                 <input type="text" name="lastname" value="">
               
-                 <label>How was your experience?</label>
-                <input type="text" name="firstname" value="">
+                  <label for="rating">Rate your experience:</label><br>
+                     <select id="rating" name="rating">
+                         <option value="5">5 - Excellent</option>
+                        <option value="4">4 - Good</option>
+                        <option value="3">3 - Average</option>
+                        <option value="2">2 - Poor</option>
+                        <option value="1">1 - Terrible</option>
+                     </select>
 
                   <label>What did you like most?</label>
                 <input type="text" name="What did you like most?" value="">
@@ -53,18 +57,7 @@
                 <label>Gender:<br></label>
             
                 <input type="radio" name="gender" value="male" checked>Male  
-                <input type="radio" name="gender" value="female">Female  
-
-
-                <label for="rating">Rate your experience:</label><br>
-                     <select id="rating" name="rating">
-                         <option value="5">5 - Excellent</option>
-                        <option value="4">4 - Good</option>
-                        <option value="3">3 - Average</option>
-                        <option value="2">2 - Poor</option>
-                        <option value="1">1 - Terrible</option>
-           </select>
-
+                <input type="radio" name="gender" value="female">Female
             </div>
 
            
