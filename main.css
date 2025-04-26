@@ -77,8 +77,11 @@ margin: 0 auto;
     justify-content: center;
     text-align: center;
 }
-.ohmyrides. p {
+
+.ohmyrides. h2 {
     text-align: center;
+}
+
 .car-collection img {
     width: 150%;
     height: 350px; /* Adjust if images look stretched */
