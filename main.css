@@ -50,26 +50,39 @@ margin: 0 auto;
     margin-right: 0px; /* Adjust spacing from the right */
 }
 
-.card-body {
-    padding: 40px 20px;
-    border-radius: 50px;
-    background-color: #f9f9f9; /* Light background */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    justify-content: right-align
-    text-align: right
-    
-}
-.button {
-    background-color: #007bff; /* Blue */
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-.button:hover {
-    background-color: #0056b3;
+.inventory-card {
+  text-align: center;
+  margin: 30px auto;
+  padding: 30px;
+  width: 300px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Soft nice shadow */
 }
 
+.inventory-text {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.inventory-button {
+  margin: 15px 0;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(135deg, #00bcd4, #0077aa);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.inventory-button:hover {
+  transform: scale(1.05); /* Slight pop when hover */
+  background: linear-
 .car-collection {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
