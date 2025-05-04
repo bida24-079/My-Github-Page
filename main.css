@@ -32,9 +32,6 @@ text-align: center;
 color: black;
   
 }
-body {
-  background-color: yellow;
-}
 main {
 
 padding: 20px;
@@ -50,7 +47,7 @@ margin: 0 auto;
     flex-direction: column;
     align-items: flex-end; /* Aligns to the right */
     margin-right: 0px; /* Adjust spacing from the right */
-
+}
 
 /* Inventory Card */
 .inventory-card {
