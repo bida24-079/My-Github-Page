@@ -25,7 +25,18 @@ padding: 20px;
 text-align: center;
 
 }
+.logo-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
 
+.logo {
+  height: 60px;
+  width: auto;
+  border-radius: 10px;
+}
 p  {
   
 text-align: center;
