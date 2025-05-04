@@ -181,12 +181,12 @@ text-decoration: underline;
     border-radius: 5px;
 }
 
- .feedback-page .body {
+ .feedback-page body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             text-align: center;
         }
-        feedback.container {
+        .container {
             width: 40%;
             background: white;
             padding: 20px;
@@ -257,7 +257,7 @@ text-decoration: underline;
   
 footer {
 
-background-color:#007bff;;
+background-color:#007bff;
 
 color: white;
 
