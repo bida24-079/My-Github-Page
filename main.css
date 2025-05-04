@@ -186,7 +186,7 @@ text-decoration: underline;
             background-color: #f4f4f4;
             text-align: center;
         }
-        .container {
+        feedback.container {
             width: 40%;
             background: white;
             padding: 20px;
@@ -244,7 +244,16 @@ text-decoration: underline;
   font-weight: bold;
   font-size: 16px;
 }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.col-md-8,
+.col-md-4 {
+  box-sizing: border-box;
+  padding: 15px;
+}
   
 footer {
 
