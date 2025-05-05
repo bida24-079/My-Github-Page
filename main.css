@@ -265,6 +265,20 @@ text-decoration: underline;
   padding: 15px;
 }
 
+.thankyou-container {
+  max-width: 600px;
+  margin: 100px auto;
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.thankyou-container h2 {
+  color: #007bff;
+  margin-bottom: 20px;
+}
   
 footer {
 
