@@ -54,6 +54,11 @@ margin: 0 auto;
 padding-bottom: 100px;
 }
 
+@media (max-width: 768px) {
+  .navbar { flex-direction: column; }
+  .content { padding: 10px; }
+}
+
 .right-align {
     display: flex;
     flex-direction: column;
