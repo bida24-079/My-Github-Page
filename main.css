@@ -224,8 +224,7 @@ text-decoration: underline;
             background: #007bff;
             color: white;
             border: none;
-            padding: 10px;
-            width: 100%;
+             width: 100%;
             border-radius: 5px;
             cursor: pointer;
         }
@@ -237,7 +236,13 @@ text-decoration: underline;
             color: #007bff;
             font-weight: bold;
         }
-
+        label {
+          display: block;
+           margin-bottom: 5px;
+      }
+      input[type="radio"] {
+        margin-right: 5px
+      }
 .car-card {
   width: 220px;
   background: white;
