@@ -293,6 +293,9 @@ padding: 20px;
 
 text-align: center;
 }
+footer p {
+  color: white;
+}
 
 @media (max-width: 768px) {
   body {
